@@ -243,7 +243,6 @@ App = {
         });
       }
     }).catch(function (err) {
-      console.log(err.message);
     });
   },
 
@@ -301,7 +300,7 @@ function showCountDown(endTime) {
 
     if (distance < 0) {
       clearInterval(x);
-      $('#countDown').text('Time is up now.');
+      $('#countDown').text('Time is up');
       location.reload();
     }
   }, 1000);
