@@ -33,15 +33,13 @@
     </div>
   </div>
 
-  <div class="countDown teal" >
+  <div class="countDown pink">
     <p id="countDown" class="center-align white-text" style="padding: 1%;"></p>
   </div>
 
   <div class="container" id="content" style="display: none;">
 
-    <div id="adminContent" style="display: none;">
-      <h3 class="center-align indigo-text darken-4">Admin Page</h3>
-    </div>
+    f
 
     <div id="voterContent" style="display: none;">
       <div id="voteContent" style="display: none;">
@@ -84,7 +82,9 @@
         <h4 id="welcomeText2"></h4>
         <p id="yourAddress2"></p>
         <h3 id="electionTopic2" class="center-align teal-text"></h3>
-        <blockquote><h4 id="yourCandidate"></h4></blockquote>
+        <blockquote>
+          <h4 id="yourCandidate"></h4>
+        </blockquote>
         <h5>Results will be shown as soon as the election ends.</h5>
         <h5>Stay Tuned</h5>
       </div>
@@ -93,17 +93,23 @@
         <h4 id="welcomeText3"></h4>
         <p id="yourAddress3"></p>
         <h3 id="electionTopic3" class="center-align teal-text"></h3>
-        <blockquote><h4 id="yourCandidate3"></h4></blockquote>
+        <blockquote>
+          <h4 id="yourCandidate3"></h4>
+        </blockquote>
         <h5>This Election has ended</h5>
         <h4 class="indigo-text center-align">Result</h4>
 
         <ul class="collection with-header" id="resultCollection">
           <li class="row collection-item">
-              <b><div class="col s8">Candidate Name</div></b>
-              <b><div class="col s4 right-align">Candidate Votes</div></b>
+            <b>
+              <div class="col s8">Candidate Name</div>
+            </b>
+            <b>
+              <div class="col s4 right-align">Candidate Votes</div>
+            </b>
           </li>
         </ul>
-        <div id="resultTemplate" style="display: none;" >
+        <div id="resultTemplate" style="display: none;">
           <li class="row collection-item">
             <div class="col s8" id="candidateName"></div>
             <div class="col s4 right-align" id="candidateVotes"></div>
