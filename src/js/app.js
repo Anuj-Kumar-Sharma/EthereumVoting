@@ -173,7 +173,7 @@ App = {
                 electionInstance.getWinningCandidate().then(function (winningCandidate) {
                   $('#winnerMessage').text(winningCandidate[1] + " has won the election.");
                 });
-                
+
                 for (var i = 1; i <= candidatesCount; i++) {
                   electionInstance.getVoteCountFor(i).then(function (result) {
                     resultTemplate.find('#candidateName').text(temp++ + ". " + result[1]);
@@ -189,7 +189,7 @@ App = {
                 }
               });
 
-              
+
 
             });
 
@@ -301,7 +301,7 @@ function showCountDown(endTime) {
 
     if (distance < 0) {
       clearInterval(x);
-      $('#countDown').text('Time is up');
+      $('#countDown').text('Time is up now.');
       location.reload();
     }
   }, 1000);
