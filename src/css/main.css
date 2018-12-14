@@ -1,0 +1,18 @@
+.progress {
+    width: 10%;
+}
+
+html, body, .valign-wrapper {
+    height: 100%;
+}
+
+label[data-error]:after {
+    white-space: nowrap;
+}
+
+#toast-container {
+    top: auto !important;
+    right: auto !important;
+    bottom: 10%;
+    left:10%;
+}
